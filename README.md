@@ -1,6 +1,6 @@
 # MY Personal WebPage
 
-* Preview at [web](vsunkara23.github.io)
+* Preview at [apple.com](apple.com)
 
 
 **Work_In_Progress** 
