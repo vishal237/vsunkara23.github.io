@@ -50,7 +50,7 @@ hr {
 .profilepic {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
+  clip-path: circle(40%);
   margin-left:100px;
   position: relative;
   top: -23px;
