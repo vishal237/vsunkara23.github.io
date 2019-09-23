@@ -1,0 +1,226 @@
+<!-- Personal Website -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My site</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+
+  <!-- Credits -->
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#0">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#1">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#3">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#4">Contact Info</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Profile Section -->
+  <section class="profileSec" id="3">
+    <div class="profSec">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="profilepic" src="img2.png" alt="My profile pic">
+        </div>
+        <div class="feature-box col-lg-4">
+          <p class="profiletext">"Inquisitive, energetic Computer
+            Science Undergrad
+            seeking to leverage solid development skills."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="profileSec" id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <img class="profilepic" src="img2.png" alt="My profile pic">
+      </div>
+      <div class="feature-box col-lg-4">
+        <p class=profpar>"Inquisitive, energetic Computer
+          Science Undergrad
+          seeking to leverage solid development skills."</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- About Me -->
+  <div class="AboutMeSec" id="0">
+    <h2>About Me</h2>
+    <p></p>
+  </div>
+
+  <!-- Education -->
+  <div class="EducationSec" id="1">
+    <h2>Education</h2>
+    <div class="paras">
+      <p id="Uni"><img src="UCSC.png" alt="UCSC Logo" class="UCSCLogo">University Of California, Santa Cruz</p>
+      <p id="Degree">Bachelor of Science, Computer Science</p>
+      <p id="GradDate">September 2017 - December 2020</p>
+      <p id="GPA">GPA: 3.72/4.0</p>
+      <p id="Courses"><u>Coursework:</u></p>
+      <p id="classlist">Introduction to Programming
+        (Accelerated), Introduction to Data Structures
+        And Algorithms, Networking And The
+        Internet, Discrete Math, Linear Algebra, Multivariable
+        Calculus, Algorithms and Abstract Data
+        Types, Computer Systems and Assembly Language,
+        Introduction to Natural Language Processing,
+        Probability and Statistics for Engineers,
+        Computer Architecture,Distributed Systems,
+        Analysis of Algorithms, Principles of Computer Systems
+        Design, Functional Programming
+      </p>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="SkillSec" id="2">
+    <h2>Skills</h2>
+    <div id="skills-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h4 class="PLtitle">Programming Languages</h4>
+          <img class="Python img-fluid" src="SkillsIcons/python.svg" alt="Python" width="50px" height="50px">
+          <img class="Java img-fluid" src="SkillsIcons/java.svg" alt="Java" width="50px" height="50px">
+          <img class="Javascript img-fluid" src="SkillsIcons/javascript.svg" alt="Javascript" width="50px" height="50px">
+          <img class="C img-fluid" src="SkillsIcons/c.svg" alt="C" width="50px" height="50px">
+          <img class="CHash img-fluid" src="SkillsIcons/cHash.svg" alt="C#" width="50px" height="50px">
+          <img class="Haskell img-fluid" src="SkillsIcons/haskell.svg" alt="Haskell" width="50px" height="50px">
+          <img class="SQL img-fluid" src="SkillsIcons/SQL.svg" alt="SQL" width="50px" height="50px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="FFtitle text-md-left">Front-End Frameworks</h4>
+          <img class="HTML5" src="SkillsIcons/HTML5.svg" alt="HTML5" width="50px" height="50px">
+          <img class="CSS3" src="SkillsIcons/CSS3.svg" alt="CSS3" width="50px" height="50px">
+          <img class="Bootstrap4" src="SkillsIcons/Bootstrap4.svg" alt="Bootstrap 4" width="50px" height="50px">
+          <img class="jquery" src="SkillsIcons/jquery.svg" alt="jquery" width="50px" height="50px">
+          <img class="Reactjs" src="SkillsIcons/reactjs.svg" alt="React.js" width="50px" height="50px">
+          <img class="SemanticUI" src="SkillsIcons/semanticUI.svg" alt="Semantic UI" width="50px" height="50px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="BFtitle">Back-End Frameworks</h4>
+          <img class="Nodejs" src="SkillsIcons/Nodejs.svg" alt="Node.js" width="50px" height="50px">
+          <img class="Django" src="SkillsIcons/Django.svg" alt="Django" width="50px" height="50px">
+          <img class="ASPNET" src="SkillsIcons/ASPNET.svg" alt="ASP.NET" width="50px" height="50px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="Ftitle">Frameworks</h4>
+          <img class="Matplotlib" src="SkillsIcons/Matplotlib.svg" alt="Node.js" width="60px" height="60px">
+          <img class="Pandas" src="SkillsIcons/Pandas.svg" alt="Node.js" width="60px" height="60px">
+          <img class="Scikit-learn" src="SkillsIcons/Scikit-learn.svg" alt="Node.js" width="90px" height="90px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="DBtitle">Databases</h4>
+          <img class="SQLite" src="SkillsIcons/SQLite.svg" alt="SQLite" width="50px" height="50px">
+          <img class="MySQL" src="SkillsIcons/MySQL.svg" alt="MySQL" width="50px" height="50px">
+          <img class="MongoDB" src="SkillsIcons/MongoDB.svg" alt="MongoDB" width="50px" height="50px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h4 class="SDTtitle">Software Development Tools</h4>
+          <img class="Github" src="SkillsIcons/Github.svg" alt="SQLite" width="50px" height="50px">
+          <img class="Docker" src="SkillsIcons/Docker.svg" alt="MySQL" width="50px" height="50px">
+          <img class="CircleCI" src="SkillsIcons/CircleCI.svg" alt="MongoDB" width="50px" height="50px">
+          <img class="terminal-image img-fluid" src="skills.png" alt="">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#skills-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#skills-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <section class="white-section" id="3">
+    <div class="WorkSec">
+      <h2 class="worktitle">Work Experience</h2>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="logo1" src="CompanyLogos/Jama.png" alt="" height="85px" width="85px">
+          <h4 class="feature-title">Fintech</h4>
+          <p>Software Development Intern</p>
+          <p>September 2019 - </p>
+          <p class="bfont">"Visualized data using matplotlib
+            and pandas that showcases stock performance over
+            a time period and recommends whether a stock is a
+            buy or not regarding financial parameters."</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="logo2" src="CompanyLogos/Epiq.png" alt="" height="90px" width="90px">
+          <h4 class="feature-title1">Legal Services</h4>
+          <p>Software Development Intern</p>
+          <p>July 2019 - September 2019</p>
+          <p class="bfont">"Part of Dev team that worked on an extra feature for an
+            online transcription management system that brings in
+            millions of dollars in revenue worldwide."</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="logo3" src="CompanyLogos/ATG.png" alt="" height="85px" width="85px">
+          <h4 class="feature-title2">Information <br>
+            Technology & Services</h4>
+          <p>Software Development Intern</p>
+          <p>July 2018 - August 2019</p>
+          <p class="bfont">"Implemented an efficient time tracking mobile
+            application in java through android studio with login feature
+            and webview activity that allows Aeries Hyderabad Office to monitor
+            employees and their performance conveniently by phone."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+</body>
+
+</html>
