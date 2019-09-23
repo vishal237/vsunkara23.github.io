@@ -8,3 +8,4 @@
 - [ ] Implementing responsiveness.
 - [ ] Building content. 
 - [ ] Designing website.
+- [ ] Refactoring code.
