@@ -1,9 +1,9 @@
 # MY Personal WebPage
 
-* Preview at <vsunkara23.github.io>
+* Preview at vsunkara23.github.io
 
 
-# Work_In_Progress 
-- [] Implementing responsiveness.
-- [] Building content. 
-- [] Designing website.
+**Work_In_Progress** 
+- [ ] Implementing responsiveness.
+- [ ] Building content. 
+- [ ] Designing website.
